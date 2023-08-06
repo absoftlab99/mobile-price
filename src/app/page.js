@@ -1,12 +1,12 @@
 'use client'
 import Card from '@/components/Card/Card'
-import Hero from '@/components/Hero/Hero'
+import Carousel from '@/components/Carousel/Carousel'
 
 export default function Home() {
 
   return (
     <main className="">
-      <Hero></Hero>
+      <Carousel></Carousel>
       <br></br>
       <Card></Card>
     </main>

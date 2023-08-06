@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 
 const Header = () => {
     return (
-        <>
+        <nav className=''>
             <div className="navbar bg-base-100 px-8">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -68,7 +68,7 @@ const Header = () => {
                 </div>
             </div>
             <Navbar></Navbar>
-        </>
+        </nav>
     )
 }
 
