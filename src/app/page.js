@@ -1,16 +1,14 @@
 'use client'
-import Card from '@/components/Card/Card'
+import Cards from '@/components/Card/Cards'
 import Carousel from '@/components/Carousel/Carousel'
-import Footer from '@/components/Footer/Footer'
 
 export default function Home() {
 
   return (
     <main className="">
       <Carousel></Carousel>
-      <br></br>
-      <Card></Card>
-      <Footer></Footer>
+      <h1 className='text-2xl text-center py-4 md:py-8'><b>জনপ্রীয়/বেশি বিক্রিত <span className='text-accent'>প্রোডাক্ট</span></b></h1>
+      <Cards></Cards>
     </main>
   )
 }
