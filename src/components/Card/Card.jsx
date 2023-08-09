@@ -3,14 +3,20 @@ import React from "react";
 
 const Card = () => {
   return (
-    <Link href='/product'>
+    <div>
       <div className="card bg-base-100 shadow-sm md:mx-0">
         <figure className="relative">
           <img
             src="https://dropshop.com.bd/wp-content/uploads/2023/08/k9-Pro-Amoled-Smart-Watch-in-BD.jpeg"
             alt="Shoes"
           />
-        <button className="btn btn-warning btn-sm absolute top-6 right-1 rotate-45">10% OFF</button>
+        <button className="btn btn-warning btn-sm absolute top-6 right-1 rotate-45">১০% ছাড়</button>
+        <Link href='/product' className="btn btn-secondary btn-md md:btn-sm absolute rounded bottom-4 left-4">
+        কিনুন
+        </Link>
+        <Link href='/product' className="btn btn-primary btn-md md:btn-sm absolute rounded bottom-4 left-1/4">
+        ব্যাগে রাখুন
+        </Link>
         </figure>
         <div className="card-body">
           <h2 className="">
@@ -54,7 +60,7 @@ const Card = () => {
           </div>
         </div>
       </div>
-    </Link>
+    </div>
   );
 };
 
