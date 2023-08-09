@@ -7,7 +7,7 @@ import 'swiper/css/autoplay';
 
 const Carousel = () => {
   return (
-    <div>
+    <div className='z-0'>
       <Swiper
       
       // install Swiper modules

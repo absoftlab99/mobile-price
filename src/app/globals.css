@@ -29,3 +29,6 @@ body {
 .swiper-wrapper{
   align-items: center;
 }
+.swiper-pagination{
+  padding-top: 50px;
+}

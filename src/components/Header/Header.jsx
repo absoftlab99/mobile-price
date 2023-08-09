@@ -6,7 +6,7 @@ const Header = () => {
     <nav className="">
       <div className="navbar bg-base-100 md:px-8 grid grid-cols-12 justify-evenly">
         <div className="col-span-3 navbar-start">
-          <div className="dropdown">
+          <div className="dropdown z-10">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -43,7 +43,7 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a>
+                <a href="/shop">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
