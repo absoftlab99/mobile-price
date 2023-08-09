@@ -7,7 +7,7 @@ const layout = ({children}) => {
                 <div className="col-span-12 md:col-span-4 lg:col-span-3 md:pe-5">
                     <div>
                         <h1 className='py-2 text-xl'>প্রাইস ফিল্টার করুন</h1>
-                        <input type="range" min={0} max="100" value="100" className="range range-xs range-accent" />
+                        <input type="range" min={0} max="100" value="75" className="range range-xs range-accent"/>
                         <div className='flex justify-between items-center py-2'>
                             <p>মূল্য ৳</p>
                             <input type="text" placeholder="৳৳৳" className="input input-bordered input-accent input-sm w-1/3" />

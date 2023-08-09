@@ -5,7 +5,7 @@ const Shop = () => {
     return (
         <div>
             <div className="flex justify-between items-center ps-8">
-                <select className="select select-accent w-full hidden md:block w-1/4">
+                <select className="select select-accent hidden md:block w-1/4">
                     <option disabled selected>সাজানোর জন্য সিলেক্ট করুন</option>
                     <option>বেস্ট সেলিং</option>
                     <option>কম থেকে বেশি মূল্য</option>

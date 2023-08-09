@@ -1,15 +1,16 @@
+import Link from "next/link";
 import React from "react";
 
 const Card = () => {
   return (
-    <div>
+    <Link href='/product'>
       <div className="card bg-base-100 shadow-sm md:mx-0">
-        <figure>
+        <figure className="relative">
           <img
             src="https://dropshop.com.bd/wp-content/uploads/2023/08/k9-Pro-Amoled-Smart-Watch-in-BD.jpeg"
             alt="Shoes"
           />
-
+        <button className="btn btn-warning btn-sm absolute top-6 right-1 rotate-45">10% OFF</button>
         </figure>
         <div className="card-body">
           <h2 className="">
@@ -53,7 +54,7 @@ const Card = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
