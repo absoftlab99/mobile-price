@@ -1,26 +1,21 @@
 import React from "react";
-import { A11y, Pagination } from "swiper/modules";
+import { A11y, Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import Card from "../Card/Card";
 import 'swiper/css/pagination';
+import 'swiper/css/autoplay'
 
 const SpecialSection = () => {
   return (
-    <div>
-      <div className="flex justify-between items-center px-4 md:px-12 py-5">
-        <div className="text-1xl md:text-2xl">
-          ইলেক্ট্রনিক্স এবং এ্যাপলায়েন্স
-        </div>
-        <div className="btn btn-accent">সব গুলো দেখুন</div>
-      </div>
+    <div className="">
       <div className="px-4 md:px-12 divider m-0"></div>
       <div className="grid grid-cols-12 px-4 md:px-12">
         <div className="col-span-12 md:col-span-4 lg:col-span-3 py-3">
           <Swiper
             className="rounded"
             // install Swiper modules
-            modules={[Pagination, A11y]}
+            modules={[Pagination, A11y, Autoplay]}
             spaceBetween={50}
             slidesPerView={1}
             autoplay={true}

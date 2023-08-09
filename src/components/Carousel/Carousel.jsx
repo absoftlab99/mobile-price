@@ -1,10 +1,9 @@
 import React from "react";
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Pagination, A11y, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+import 'swiper/css/autoplay';
 
 const Carousel = () => {
   return (
@@ -12,10 +11,11 @@ const Carousel = () => {
       <Swiper
       
       // install Swiper modules
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      modules={[Pagination, A11y, Autoplay]}
       spaceBetween={50}
       slidesPerView={1}
       navigation
+      autoplay={true}
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
       onSwiper={(swiper) => console.log(swiper)}
