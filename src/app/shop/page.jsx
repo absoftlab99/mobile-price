@@ -4,7 +4,7 @@ import React from 'react';
 const Shop = () => {
     return (
         <div>
-            <div className="flex justify-between items-center ps-8">
+            <div className="flex justify-between items-center ps-5">
                 <select className="select select-accent hidden md:block w-1/4">
                     <option disabled selected>সাজানোর জন্য সিলেক্ট করুন</option>
                     <option>বেস্ট সেলিং</option>
@@ -13,7 +13,7 @@ const Shop = () => {
                 </select>
                 <h1 className='hidden md:block'>প্রোডাক্ট সংখ্যা: 1512 টি</h1>
             </div>
-            <div className="grid grid-cols-12 gap-4 md:gap-8 md:ps-8 py-5">
+            <div className="grid grid-cols-12 gap-5 md:ps-5 py-5">
                 <div className="col-span-12 md:col-span-6 lg:col-span-4">
                     <Card></Card>
                 </div>

@@ -2,6 +2,7 @@ import './globals.css'
 import { Hind_Siliguri } from 'next/font/google'
 import Header from '../components/Header/Header.jsx'
 import Footer from '@/components/Footer/Footer'
+import Top from '@/components/Header/Top'
 
 const inter = Hind_Siliguri({ subsets: ['latin'], weight:['400'] })
 
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <header>
+          <Top></Top>
           <Header></Header>
         </header>
         <div className='pb-5'>
