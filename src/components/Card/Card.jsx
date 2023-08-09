@@ -12,10 +12,10 @@ const Card = () => {
 
         </figure>
         <div className="card-body">
-          <h2 className="card-title">
+          <h2 className="">
             HK9 Pro Amoled Smart Watch – Black Color
           </h2>
-          <p className="text-xl">
+          <p className="">
             দাম: <span className="text-warning">৩০০০ টাকা</span>
           </p>
 

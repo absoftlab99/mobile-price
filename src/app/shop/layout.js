@@ -100,7 +100,7 @@ const layout = ({children}) => {
                             <option>এয়ার ফোন</option>
                             <option>স্পীকার</option>
                         </select>
-                        <h1 className='py-2 text-xl mt-4'>ব্রান্ড অনুযায়ী ফিল্টার করুন</h1>
+                        <h1 className='py-2 text-xl mt-4 hidden md:block'>ব্রান্ড অনুযায়ী ফিল্টার করুন</h1>
                         <div className='hidden md:block'>
                             <div className="flex justify-between py-1">
                                 <div className="flex items-center">
