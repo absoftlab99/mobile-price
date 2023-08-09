@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Link from "next/link";
+import Image from "next/image";
 
 const Header = () => {
   return (
@@ -128,7 +129,10 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <Link href='/' className="btn btn-ghost normal-case text-xl">
+          <Link href='/' className="">
+            <img src="https://i.ibb.co/PQrBR0W/Barir-Dokan-Landscape-White.png" alt="Barir Dokan" />
+          </Link>
+          <Link href='/' className="md:hidden btn btn-ghost normal-case text-xl">
             <svg
               className="w-5 h-5"
               xmlns="http://www.w3.org/2000/svg"
@@ -145,7 +149,7 @@ const Header = () => {
           <div className="form-control w-full">
             <input
               type="text"
-              placeholder="Search"
+              placeholder="পছন্দের পণ্য খুজুন"
               className="input input-bordered"
             />
           </div>
