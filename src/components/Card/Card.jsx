@@ -7,8 +7,8 @@ const Card = () => {
       <div className="card bg-base-100 shadow-sm md:mx-0">
         <figure className="relative">
           <img
-            src="https://dropshop.com.bd/wp-content/uploads/2023/08/k9-Pro-Amoled-Smart-Watch-in-BD.jpeg"
-            alt="Shoes"
+            src="https://dropshop.com.bd/wp-content/uploads/2023/08/Extonic-Air-Cooler-Fan-ET-C702-Blue-800x800.jpeg"
+            alt="Product Image"
           />
         <button className="btn btn-warning btn-sm absolute top-6 right-1 rotate-45">১০% ছাড়</button>
         <button className="btn btn-secondary btn-md md:btn-sm absolute rounded bottom-4 left-4">
