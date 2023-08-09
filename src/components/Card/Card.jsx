@@ -11,14 +11,14 @@ const Card = () => {
             alt="Shoes"
           />
         <button className="btn btn-warning btn-sm absolute top-6 right-1 rotate-45">১০% ছাড়</button>
-        <Link href='/product' className="btn btn-secondary btn-md md:btn-sm absolute rounded bottom-4 left-4">
+        <button className="btn btn-secondary btn-md md:btn-sm absolute rounded bottom-4 left-4">
         কিনুন
-        </Link>
-        <Link href='/product' className="btn btn-primary btn-md md:btn-sm absolute rounded bottom-4 left-1/4">
+        </button>
+        <button className="btn btn-primary btn-md md:btn-sm absolute rounded bottom-4 left-1/4">
         ব্যাগে রাখুন
-        </Link>
+        </button>
         </figure>
-        <div className="card-body">
+        <Link href='/product' className="card-body">
           <h2 className="">
             HK9 Pro Amoled Smart Watch – Black Color
           </h2>
@@ -58,7 +58,7 @@ const Card = () => {
             <div className="badge badge-outline">স্ম্যার্ট ওয়াচ</div>
             <div className="badge badge-outline">বেস্ট সেলিং</div>
           </div>
-        </div>
+        </Link>
       </div>
     </div>
   );
