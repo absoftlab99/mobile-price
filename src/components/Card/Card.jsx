@@ -3,7 +3,7 @@ import React from "react";
 const Card = () => {
   return (
     <div>
-      <div className="card bg-base-100 shadow-sm mx-3 md:mx-0">
+      <div className="card bg-base-100 shadow-sm md:mx-0">
         <figure>
           <img
             src="https://dropshop.com.bd/wp-content/uploads/2023/08/k9-Pro-Amoled-Smart-Watch-in-BD.jpeg"
