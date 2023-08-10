@@ -3,8 +3,8 @@ import React from 'react';
 const page = () => {
     return (
         <div className="grid grid-cols-12 py-8 px-4 md:px-8">
-            <div className="col-span-12 md:col-span-6 my-2">
-                <h1 className='text-2xl text-center'>আমার প্রোফাইল</h1>
+            <div className="card glass col-span-12 md:col-span-6 my-2">
+                <h1 className='text-2xl text-center pt-3'>আমার প্রোফাইল</h1>
                 <figure className='flex justify-center relative'>
                     <img className='rounded-full w-28 h-28 mt-4 border-4 border-accent-focus ms-4' src="https://i.ibb.co/X88tbV7/my-photo3.jpg" alt="Abdullah Al Mahmud" />
                     <div className=''>
@@ -21,8 +21,6 @@ const page = () => {
                     <p className='py-2 p-4'>মোবাইল নম্বরঃ <a href='tel:+8801798930232'>+880 1798-930232</a></p>
                     <p className='py-2 p-4'>অল্টারনেটিং নম্বরঃ <a href='tel:+8801309054202'>+880 1309-054202</a></p>
                     <p className='py-2 p-4'>ইমেইল ঠিকানাঃ <a href='mailto:abdullahtech2@outlook.com'>abdullahtech2@outlook.com</a></p>
-
-
                 </div>
             </div> 
             <div className="col-span-12 md:col-span-6 my-2 px-4">
