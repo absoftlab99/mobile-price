@@ -5,6 +5,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import Card from '@/components/Card/Card';
 
 
 const page = () => {
@@ -19,7 +20,9 @@ const page = () => {
                             <div className="badge badge-outline">শেভিং মেশিন</div>
                         </div>
                     </div>
-                    <Carousel className='mt-2'>
+                    <Carousel className='mt-2'
+                    swipeable={false}
+                    >
                         <div className=''>
                             <img src="https://barirdokan.com/wp-content/uploads/2023/08/1.jpg" />
                             {/* <p className="legend">Legend 1</p> */}
@@ -59,16 +62,16 @@ const page = () => {
                     </div>
                 </div>
             </div>
-            <div className='px-4 md:px-8'>
+            <div className='px-4 md:px-12'>
                 <Tabs>
                     <TabList>
                     <Tab>প্রডাক্টের বিস্তারিত বর্ণনা</Tab>
-                    <Tab>কাস্টমার রিভিউ <span className='text-warning font-bold'>0</span></Tab>
+                    <Tab>কাস্টমার রিভিউ <span className='text-warning font-bold'>০১</span></Tab>
                     </TabList>
 
                     <TabPanel>
                         <h1 className='text-3xl py-3'>Awei F21 Mini Rechargeable Fan (2000mAh) In Bangladesh</h1>
-                        <p className='text-justify'>
+                        <div className='text-justify'>
                             TheAwei F21 Mini Rechargeable Fan is now available in Bangladesh. Get the original products at the most affordable price only at DropShop.com.bd and enjoy the quality with the promise of the best customer service in Bangladesh.<br></br>
 
                             The Awei F21 Mini Rechargeable Fan is a small, portable fan that can be used to cool you down on hot days. It has a 2000mAh battery that can provide up to 4 hours of run time on a single charge. The fan has 4 different wind speeds, and it can also be used as a USB charging treasure.<br></br><br></br>
@@ -107,10 +110,51 @@ const page = () => {
                                 <li>Wind speeds: 4</li>
                                 <li>Runtime: Up to 4 hours</li>
                             </ul>
-                        </p>
+                        </div>
                     </TabPanel>
                     <TabPanel>
-                        
+                        <div className='flex gap-5 py-5'>
+                            <img className='h-20 w-20 rounded-full' src="https://yt3.googleusercontent.com/-CFTJHU7fEWb7BYEb6Jh9gm1EpetvVGQqtof0Rbh-VQRIznYYKJxCaqv_9HeBcmJmIsp2vOO9JU=s900-c-k-c0x00ffffff-no-rj" alt="" />
+                            <div>
+                                <h2 className='text-lg'>মোঃ শাহিন রেজা</h2>
+                                <p className='text-neutral'>10 Feb 2023 | 12:29 PM</p>
+                                <div className="rating">
+                                    <input type="radio" name="rating-4" className="mask mask-star-2 bg-green-500" />
+                                    <input type="radio" name="rating-4" className="mask mask-star-2 bg-green-500" />
+                                    <input type="radio" name="rating-4" className="mask mask-star-2 bg-green-500" />
+                                    <input type="radio" name="rating-4" className="mask mask-star-2 bg-green-500" checked />
+                                    <input type="radio" name="rating-4" className="mask mask-star-2 bg-green-500" />
+                                </div>
+                                <div className=''>
+                                    <p className='chat-bubble'>অসাধারন ১ টি প্রোডাক্ট…।।❤️😍😍</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='px-4 md:px-8 py-4 md:py-8 border border-accent rounded-md'>
+                            <h1 className='text-lg'>রিভিউ দিন</h1>
+                            <div className='flex gap-4 items-center'>
+                                <h2 className='text-sm py-2'>আপনার রেটিংঃ</h2>
+                                <div className="rating">
+                                    <input type="radio" name="rating-4" className="mask mask-star-2 bg-green-500" />
+                                    <input type="radio" name="rating-4" className="mask mask-star-2 bg-green-500" />
+                                    <input type="radio" name="rating-4" className="mask mask-star-2 bg-green-500" />
+                                    <input type="radio" name="rating-4" className="mask mask-star-2 bg-green-500" />
+                                    <input type="radio" name="rating-4" className="mask mask-star-2 bg-green-500" />
+                                </div>
+                            </div>
+                            <h2 className='text-sm py-2'>আপনার রিভিউঃ</h2>
+                            <textarea className="textarea textarea-accent w-full h-[80px] py-2" placeholder="রিভিউ লিখুন..."></textarea>
+                            <button className='btn btn-accent'>সাবমিট করুন</button>
+                        </div>
+                        <div className='py-4 md:py-8'>
+                            <h1 className='text-3xl py-3'>রিলেটেড প্রডাক্ট</h1>
+                        </div>
+                        <div className="grid grid-cols-12 gap-4">
+                            <div className='col-span-12 md:col-span-3'><Card></Card></div>
+                            <div className='col-span-12 md:col-span-3'><Card></Card></div>
+                            <div className='col-span-12 md:col-span-3'><Card></Card></div>
+                            <div className='col-span-12 md:col-span-3'><Card></Card></div>
+                        </div>
                     </TabPanel>
                 </Tabs>
             </div>
