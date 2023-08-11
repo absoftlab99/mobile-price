@@ -15,6 +15,11 @@ pnpm dev
 - [React Tabs](https://www.npmjs.com/package/react-tabs)
 - [React Responsive Carousel](https://www.npmjs.com/package/react-responsive-carousel)
 
+## Technologys
+**Tailwind
+**Next.js
+**React.js
+**Laravel
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
