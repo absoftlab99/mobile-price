@@ -10,13 +10,13 @@ const Card = () => {
             src="https://dropshop.com.bd/wp-content/uploads/2023/08/Extonic-Air-Cooler-Fan-ET-C702-Blue-800x800.jpeg"
             alt="Product Image"
           />
-        <button className="btn btn-warning btn-sm absolute top-6 right-1 rotate-45">১০% ছাড়</button>
-        <button className="btn btn-secondary btn-md md:btn-sm absolute rounded bottom-4 left-4">
-        কিনুন
-        </button>
-        <button className="btn btn-primary btn-md md:btn-sm absolute rounded bottom-4 left-1/4">
-        ব্যাগে রাখুন
-        </button>
+        <button className="btn btn-warning btn-sm absolute top-2 right-2">১০% ছাড়</button>
+
+        <div className="absolute bottom-2 left-2">
+          <button className="btn btn-secondary btn-md md:btn-sm rounded me-2">কিনুন</button>
+          <button className="btn btn-primary btn-md md:btn-sm rounded">ব্যাগে রাখুন</button>
+        </div>
+
         </figure>
         <Link href='/product' className="card-body">
           <h2 className="">
