@@ -11,6 +11,9 @@ yarn dev
 # or
 pnpm dev
 ```
+## NPM Package
+- [React Tabs](https://www.npmjs.com/package/react-tabs)
+- [React Responsive Carousel](https://www.npmjs.com/package/react-responsive-carousel)
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
