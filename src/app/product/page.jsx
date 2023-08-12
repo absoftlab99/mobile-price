@@ -146,17 +146,17 @@ const page = () => {
                             <textarea className="textarea textarea-accent w-full h-[80px] py-2" placeholder="রিভিউ লিখুন..."></textarea>
                             <button className='btn btn-accent'>সাবমিট করুন</button>
                         </div>
-                        <div className='py-4 md:py-8'>
-                            <h1 className='text-3xl py-3'>রিলেটেড প্রডাক্ট</h1>
-                        </div>
-                        <div className="grid grid-cols-12 gap-4">
-                            <div className='col-span-12 md:col-span-3'><Card></Card></div>
-                            <div className='col-span-12 md:col-span-3'><Card></Card></div>
-                            <div className='col-span-12 md:col-span-3'><Card></Card></div>
-                            <div className='col-span-12 md:col-span-3'><Card></Card></div>
-                        </div>
                     </TabPanel>
                 </Tabs>
+                <div className='py-4 md:py-8'>
+                    <h1 className='text-3xl py-3'>রিলেটেড প্রডাক্ট</h1>
+                </div>
+                <div className="grid grid-cols-12 gap-4">
+                    <div className='col-span-12 md:col-span-3'><Card></Card></div>
+                    <div className='col-span-12 md:col-span-3'><Card></Card></div>
+                    <div className='col-span-12 md:col-span-3'><Card></Card></div>
+                    <div className='col-span-12 md:col-span-3'><Card></Card></div>
+                </div>
             </div>
         </div>
     );
